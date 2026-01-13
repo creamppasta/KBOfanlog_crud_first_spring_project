@@ -65,4 +65,4 @@ POST → GET → PUT → DELETE 순서로 테스트했습니다.
 	• DI, Repository 프록시, JPA Dirty Checking 개념 체득
 	• Controller / Service / Repository 구조를 말로 설명할 수 있게 됨
 아직 구조적으로 단순한 프로젝트이지만,
-Spring 백엔드의 기본 개념을 정리하는 데 큰 도움이 됐습니다.<img width="1193" height="3241" alt="image" src="https://github.com/user-attachments/assets/c8b19bc5-ce31-4faf-bf06-26a9509795a8" />
+Spring 백엔드의 기본 개념을 정리하는 데 큰 도움이 됐습니다.

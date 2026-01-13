@@ -12,10 +12,9 @@ Spring Data JPA (Hibernate)
 H2 Database (in-memory)
 
 **이 프로젝트에서 해본 것**
-FanLog라는 간단한 도메인을 기준으로
-생성, 조회, 수정, 삭제 API를 구현했습니다.
-Controller / Service / Repository 구조를 사용했고,
-각 레이어가 어떤 역할을 가지는지 구분하는 데 집중했습니다.
+FanLog라는 간단한 도메인을 기준으로 생성, 조회, 수정, 삭제 API를 구현했습니다.
+로직이 복잡해질수록 코드가 섞이는 것을 피하고 싶어서 Controller / Service / Repository 구조를 사용했습니다. 
+각 레이어가 어떤 역할을 가지는지 명확히 구분하는 데 집중했습니다.
 **Controller**
 	• HTTP 요청을 받는 역할
 	• JSON을 DTO로 변환하고 검증
@@ -59,6 +58,7 @@ H2 in-memory DB를 사용하기 때문에
 서버를 재시작하면 데이터가 초기화됩니다.
 이 점을 감안해서
 POST → GET → PUT → DELETE 순서로 테스트했습니다.
+PowerShell로 직접 요청을 보내보면서 HTTP 요청이 서버에 들어오는 흐름을 눈으로 확인할 수 있었습니다.
 
 **이 프로젝트를 통해 얻은 것**
 	• Spring Boot에서 HTTP 요청이 처리되는 전체 흐름 이해
